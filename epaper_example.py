@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 from micropython_epaper_display import EPaperDisplay
-import time
 
 # Initialize the display
 epd = EPaperDisplay()
