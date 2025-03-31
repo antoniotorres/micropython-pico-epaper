@@ -13,6 +13,17 @@ This project provides a simple interface for controlling e-paper (e-ink) display
 - Bitmap display capabilities
 - Compatible with Raspberry Pi Pico and MicroPython
 
+## Development Environment
+
+This project is designed to work with [MicroPico](https://github.com/paulober/MicroPico), a Visual Studio Code extension that simplifies MicroPython development for Raspberry Pi Pico boards. MicroPico provides features like:
+
+- Code auto-completion with documentation
+- Terminal integration for MicroPython REPL
+- Easy file transfer between your computer and Pico
+- Project management tools
+
+I recommend installing MicroPico for the best development experience.
+
 ## Installation
 
 1. Clone this repository:
