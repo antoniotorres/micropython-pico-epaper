@@ -1,1 +1,42 @@
 # micropython-pico-epaper
+
+A MicroPython example for controlling e-paper displays with Raspberry Pi Pico.
+
+## Overview
+
+This project provides a simple interface for controlling e-paper (e-ink) displays using MicroPython on the Raspberry Pi Pico.
+
+## Features
+
+- Simple API for controlling e-paper displays
+- Power-efficient with deep sleep support
+- Bitmap display capabilities
+- Compatible with Raspberry Pi Pico and MicroPython
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/micropython-pico-epaper.git
+```
+
+## Usage
+
+Basic example:
+
+```python
+#!/usr/bin/env python
+
+from micropython_epaper_display import EPaperDisplay
+import time
+
+# Initialize the display
+epd = EPaperDisplay()
+epd.init()
+epd.clear()
+
+# Enter deep sleep to save power
+epd.deep_sleep()
+epd.power_off()
+```
