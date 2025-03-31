@@ -24,3 +24,11 @@ user.props
 
 # MacOS desktop metadata files
 .DS_Store
+
+# VSCODE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
